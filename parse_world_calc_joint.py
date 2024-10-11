@@ -24,13 +24,13 @@
 
 import os
 
-from gz.common5 import set_verbosity
-from gz.sim8 import TestFixture, World, world_entity, Model, Joint
-from gz.math7 import Vector3d
-from gz.transport13 import Node
-from gz.msgs10.world_control_pb2 import WorldControl
-from gz.msgs10.world_reset_pb2 import WorldReset
-from gz.msgs10.boolean_pb2 import Boolean
+from gz.common6 import set_verbosity
+from gz.sim9 import TestFixture, World, world_entity, Model, Joint
+from gz.math8 import Vector3d
+from gz.transport14 import Node
+from gz.msgs11.world_control_pb2 import WorldControl
+from gz.msgs11.world_reset_pb2 import WorldReset
+from gz.msgs11.boolean_pb2 import Boolean
 set_verbosity(4)
 
 file_path = os.path.dirname(os.path.realpath(__file__))
